@@ -34,3 +34,7 @@ def standard_roll():
 
 def mighty_roll():
     return xdyd(4, 6)
+
+
+def six_plus_2d6():
+    return 6 + xdy(2, 6)
