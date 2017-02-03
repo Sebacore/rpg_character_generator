@@ -1,4 +1,322 @@
-occupations = [{
+dcc_standard = [{
+    'Occupation': 'Alchemist',
+    'Trade Goods': 'Oil, 1 flask',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Animal trainer',
+    'Trade Goods': 'Pony',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Armorer',
+    'Trade Goods': 'Iron helmet',
+    'Trained Weapon': 'Hammer (as club)'
+}, {
+    'Occupation': 'Astrologer',
+    'Trade Goods': 'Spyglass',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Barber',
+    'Trade Goods': 'Scissors',
+    'Trained Weapon': 'Razor (as dagger)'
+}, {
+    'Occupation': 'Beadle',
+    'Trade Goods': 'Holy symbol',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Beekeeper',
+    'Trade Goods': 'Jar of honey',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Blacksmith',
+    'Trade Goods': 'Steel tongs',
+    'Trained Weapon': 'Hammer (as club)'
+}, {
+    'Occupation': 'Butcher',
+    'Trade Goods': 'Side of beef',
+    'Trained Weapon': 'Cleaver (as axe)'
+}, {
+    'Occupation': 'Caravan guard',
+    'Trade Goods': 'Linen, 1 yard',
+    'Trained Weapon': 'Short sword'
+}, {
+    'Occupation': 'Cheesemaker',
+    'Trade Goods': 'Stinky cheese',
+    'Trained Weapon': 'Cudgel (as staff)'
+}, {
+    'Occupation': 'Cobbler',
+    'Trade Goods': 'Shoehorn',
+    'Trained Weapon': 'Awl (as dagger)'
+}, {
+    'Occupation': 'Con Artist',
+    'Trade Goods': 'Quality cloak',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Cooper',
+    'Trade Goods': 'Barrel',
+    'Trained Weapon': 'Crowbar (as club)'
+}, {
+    'Occupation': 'Costermonger',
+    'Trade Goods': 'Fruit',
+    'Trained Weapon': 'Knife (as dagger)'
+}, {
+    'Occupation': 'Cutpurse',
+    'Trade Goods': 'Small chest',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Ditch digger',
+    'Trade Goods': 'Fine dirt, 1 lb.',
+    'Trained Weapon': 'Shovel (as staff)'
+}, {
+    'Occupation': 'Dwarven apothecarist',
+    'Trade Goods': 'Steel vial',
+    'Trained Weapon': 'Cudgel (as staff)'
+}, {
+    'Occupation': 'Dwarven blacksmith',
+    'Trade Goods': 'Mithril, 1 oz.',
+    'Trained Weapon': 'Hammer (as club)'
+}, {
+    'Occupation': 'Dwarven chest-maker',
+    'Trade Goods': 'Wood, 10 lbs.',
+    'Trained Weapon': 'Chisel (as dagger)'
+}, {
+    'Occupation': 'Dwarven herder',
+    'Trade Goods': 'Sow',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Dwarven miner',
+    'Trade Goods': 'Lantern',
+    'Trained Weapon': 'Pick (as club)'
+}, {
+    'Occupation': 'Dwarven mushroom-farmer',
+    'Trade Goods': 'Sack',
+    'Trained Weapon': 'Shovel'
+}, {
+    'Occupation': 'Dwarven rat-catcher',
+    'Trade Goods': 'Net',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Dwarven stonemason',
+    'Trade Goods': 'Fine stone, 10 lbs.',
+    'Trained Weapon': 'Hammer'
+}, {
+    'Occupation': 'Elven artisan',
+    'Trade Goods': 'Clay, 1 lb.',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Elven barrister',
+    'Trade Goods': 'Book',
+    'Trained Weapon': 'Quill (as dart)'
+}, {
+    'Occupation': 'Elven chandler',
+    'Trade Goods': 'Candles, 20',
+    'Trained Weapon': 'Scissors (as dagger)'
+}, {
+    'Occupation': 'Elven falconer',
+    'Trade Goods': 'Falcon',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Elven forester',
+    'Trade Goods': 'Herbs, 1 lb.',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Elven glassblower',
+    'Trade Goods': 'Glass beads',
+    'Trained Weapon': 'Hammer'
+}, {
+    'Occupation': 'Elven navigator',
+    'Trade Goods': 'Spyglass',
+    'Trained Weapon': 'Bow'
+}, {
+    'Occupation': 'Elven sage',
+    'Trade Goods': 'Parchment and quill pen',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Farmer*',
+    'Trade Goods': 'Hen',
+    'Trained Weapon': 'Pitchfork (as spear)'
+}, {
+    'Occupation': 'Fortune-teller',
+    'Trade Goods': 'Tarot deck',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Gambler',
+    'Trade Goods': 'Dice',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Gongfarmer',
+    'Trade Goods': 'Sack of night soil',
+    'Trained Weapon': 'Trowel (as dagger)'
+}, {
+    'Occupation': 'Grave digger',
+    'Trade Goods': 'Trowel',
+    'Trained Weapon': 'Shovel (as staff)'
+}, {
+    'Occupation': 'Guild beggar',
+    'Trade Goods': 'Crutches',
+    'Trained Weapon': 'Sling'
+}, {
+    'Occupation': 'Halfling chicken butcher',
+    'Trade Goods': 'Chicken meat, 5 lbs.',
+    'Trained Weapon': 'Hand axe'
+}, {
+    'Occupation': 'Halfling dyer',
+    'Trade Goods': 'Fabric, 3 yards',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Halfling glovemaker',
+    'Trade Goods': 'Gloves, 4 pairs',
+    'Trained Weapon': 'Awl (as dagger)'
+}, {
+    'Occupation': 'Halfling gypsy',
+    'Trade Goods': 'Hex doll',
+    'Trained Weapon': 'Sling'
+}, {
+    'Occupation': 'Halfling haberdasher',
+    'Trade Goods': 'Fine suits, 3 sets',
+    'Trained Weapon': 'Scissors (as dagger)'
+}, {
+    'Occupation': 'Halfling mariner',
+    'Trade Goods': 'Sailcloth, 2 yards',
+    'Trained Weapon': 'Knife (as dagger)'
+}, {
+    'Occupation': 'Halfling moneylender',
+    'Trade Goods': '5 gp, 10 sp, 200 cp',
+    'Trained Weapon': 'Short sword'
+}, {
+    'Occupation': 'Halfling trader',
+    'Trade Goods': '20 sp',
+    'Trained Weapon': 'Short sword'
+}, {
+    'Occupation': 'Halfling vagrant',
+    'Trade Goods': 'Begging bowl',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Healer',
+    'Trade Goods': 'Holy water, 1 vial',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Herbalist',
+    'Trade Goods': 'Herbs, 1 lb.',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Herder',
+    'Trade Goods': 'Herding dog**',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Hunter',
+    'Trade Goods': 'Deer pelt',
+    'Trained Weapon': 'Shortbow'
+}, {
+    'Occupation': 'Indentured servant',
+    'Trade Goods': 'Locket',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Jester',
+    'Trade Goods': 'Silk clothes',
+    'Trained Weapon': 'Dart'
+}, {
+    'Occupation': 'Jeweler',
+    'Trade Goods': 'Gem worth 20 gp',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Locksmith',
+    'Trade Goods': 'Fine tools',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Mendicant',
+    'Trade Goods': 'Cheese dip',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Mercenary',
+    'Trade Goods': 'Hide armor',
+    'Trained Weapon': 'Longsword'
+}, {
+    'Occupation': 'Merchant',
+    'Trade Goods': '4 gp, 14 sp, 27 cp',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Miller/baker',
+    'Trade Goods': 'Flour, 1 lb.',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Minstrel',
+    'Trade Goods': 'Ukulele',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Noble',
+    'Trade Goods': 'Gold ring worth 10 gp',
+    'Trained Weapon': 'Longsword'
+}, {
+    'Occupation': 'Orphan',
+    'Trade Goods': 'Rag doll',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Ostler',
+    'Trade Goods': 'Bridle',
+    'Trained Weapon': 'Staff'
+}, {
+    'Occupation': 'Outlaw',
+    'Trade Goods': 'Leather armor',
+    'Trained Weapon': 'Short sword'
+}, {
+    'Occupation': 'Rope maker',
+    'Trade Goods': 'Rope, 100â€™',
+    'Trained Weapon': 'Knife (as dagger)'
+}, {
+    'Occupation': 'Scribe',
+    'Trade Goods': 'Parchment, 10 sheets',
+    'Trained Weapon': 'Dart'
+}, {
+    'Occupation': 'Shaman',
+    'Trade Goods': 'Herbs, 1 lb.',
+    'Trained Weapon': 'Mace'
+}, {
+    'Occupation': 'Slave',
+    'Trade Goods': 'Strange-looking rock',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Smuggler',
+    'Trade Goods': 'Waterproof sack',
+    'Trained Weapon': 'Sling'
+}, {
+    'Occupation': 'Soldier',
+    'Trade Goods': 'Shield',
+    'Trained Weapon': 'Spear'
+}, {
+    'Occupation': 'Squire',
+    'Trade Goods': 'Steel helmet',
+    'Trained Weapon': 'Longsword'
+}, {
+    'Occupation': 'Tax collector',
+    'Trade Goods': '100 cp',
+    'Trained Weapon': 'Longsword'
+}, {
+    'Occupation': 'Trapper',
+    'Trade Goods': 'Badger pelt',
+    'Trained Weapon': 'Sling'
+}, {
+    'Occupation': 'Urchin',
+    'Trade Goods': 'Begging bowl',
+    'Trained Weapon': 'Stick (as club)'
+}, {
+    'Occupation': 'Wainwright',
+    'Trade Goods': 'Pushcart***',
+    'Trained Weapon': 'Club'
+}, {
+    'Occupation': 'Weaver',
+    'Trade Goods': 'Fine suit of clothes',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Wizardâ€™s apprentice',
+    'Trade Goods': 'Black grimoire',
+    'Trained Weapon': 'Dagger'
+}, {
+    'Occupation': 'Woodcutter',
+    'Trade Goods': 'Bundle of wood',
+    'Trained Weapon': 'Handaxe'
+}]
+
+advanced = [{
     'Something extra': 'Quill and ink',
     'Roll': 1,
     'What the hell is that?': None,
